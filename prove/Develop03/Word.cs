@@ -17,11 +17,6 @@ class Word
     {
         return _hidden;
     }
-
-    public void Reveal()
-    {
-        _hidden = false;
-    }
     public string GetDisplayText()
     {
         if (_hidden)
