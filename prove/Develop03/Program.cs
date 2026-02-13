@@ -2,6 +2,7 @@ using System;
 
 // I added a library of scriptures to randomly select one for the user
 // This will change it up every time so the user can practice memorizing different scriptures
+// I like to memorize a lot of scriptures, so I will use this a lot
 class Program
 {
     static void Main(string[] args)

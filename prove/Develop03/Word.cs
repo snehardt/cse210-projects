@@ -17,6 +17,8 @@ class Word
     {
         return _hidden;
     }
+
+    // If it's hidden, replaces it with "__"
     public string GetDisplayText()
     {
         if (_hidden)

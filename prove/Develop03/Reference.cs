@@ -7,6 +7,7 @@ class Reference
     private int _verseStart;
     private int _verseEnd;
 
+// One Verse
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
@@ -15,6 +16,7 @@ class Reference
         _verseEnd = verse;
     }
 
+// Two or more verses
     public Reference(string book, int chapter, int verseStart, int verseEnd)
     {
         _book = book;
@@ -23,6 +25,7 @@ class Reference
         _verseEnd = verseEnd;
     }
 
+// Display clean reference
     public string GetReference()
     {
         if (_verseStart == _verseEnd)

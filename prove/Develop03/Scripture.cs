@@ -13,6 +13,7 @@ class Scripture
             _words.Add(new Word(word));
         }
     }
+    // Clears the previous and replaces it with Get Reference from Word
     public void Display()
     {
         Console.Clear();
@@ -40,6 +41,7 @@ class Scripture
                 break;
         }
     }
+    // Make sure they're all hidden before stopping
     public bool AllHidden()
     {
         foreach (Word word in _words)
