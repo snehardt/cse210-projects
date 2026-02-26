@@ -3,7 +3,6 @@ class Activity
     private string _name;
     private string _description;
     private int _duration;
-    private ActivityLog _log;
 
     public Activity(string name, string description)
     {
