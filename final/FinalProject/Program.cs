@@ -26,6 +26,13 @@ class Program
             Text.TypeText("You move deeper into the dungeon...");
             Text.WaitForEnter();
 
+            if (floor == 1)
+            {
+                Text.TypeText("Attacking does 10 damage, and charges special +2");
+                Text.TypeText("Magic can either buff your next attack +5, or heal you for +15");
+                Text.TypeText("Special does +25 damage, +10 healing");
+            }
+
             int enemyCount;
 
             if (isBossFloor)
