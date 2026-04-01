@@ -20,3 +20,5 @@ public static class Text
         Console.ReadLine();
     }
 }
+
+// https://logicandchaos.itch.io/endless-prose/devlog/488908/animate-text-in-c-console-applications-a-step-by-step-tutorial
