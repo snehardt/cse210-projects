@@ -22,7 +22,6 @@ abstract class Action
     {
         _damage = damage;
     }
-
-    // ABSTRACT METHOD (required for polymorphism)
+    
     public abstract void Execute(Character user, Character target);
 }
